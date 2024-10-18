@@ -1,0 +1,13 @@
+pip install pytest
+
+to make test function you must start with test_
+
+to run all your test functions run the pytest command in your directory
+to run tests in specific file pytest file_name.py
+
+assert is any thing you can make it in conditional case
+
+if you make tests for all parts in the function that called the full coverage test
+
+Use @pytest.fixture if there is something common in function to make your code no violate DRY principles
+
